@@ -1,19 +1,17 @@
-import { useState } from 'react'
-import kuljitLogo from "./assets/jeetphotographie-logos.jpeg";
-import './App.css'
+import { useState } from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <header>
-        <nav>
-          <img src={kuljitLogo} alt="logo with text jeetphotographie and an image of a mountain" />
-        </nav>
-      </header>
+      <Header />
+      <Main />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
