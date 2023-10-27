@@ -1,0 +1,62 @@
+.aboutMeDiv {
+    
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.aboutMeTitle {
+
+    display: flex;
+   justify-content: center;
+    width: 50%;
+    font-size: var(--step-2);
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.introDiv {
+    border: 1px solid tomato;
+    display: flex;
+    gap: 1em;
+    font-size: var(--step-0);
+
+}
+
+.introDivHello,
+.introText {
+    width: 50%;
+}
+
+.introDivHello {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.3);
+    background-image: url('../assets/kimmy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -13em;
+    background-position-x: 1em;
+
+}
+
+.introDivHello h2 {
+    font-size: calc(var(--step-5) * 1.5);
+}
+
+.introText {
+    border: 1px solid black;
+    padding: .5em 3em;
+
+}
+
+.introText h3 {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+}
+
+.introText p {
+    font-size: var(--step--2);
+}

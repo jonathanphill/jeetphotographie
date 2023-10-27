@@ -1,7 +1,19 @@
+.mainGallery{
+    background-color: rgba(240, 240, 240, 0.973)
+}
+
 .gallery{
     margin-top: 5em;
-    height: 50vh;
+    height: 80vh;
     display: flex;
     gap: .5em;
     justify-content: space-between;
+    /* overflow: hidden; */
+}
+@media (max-width:600px) {
+    .gallery {
+        flex-wrap: wrap;
+        overflow:visible;
+    }
+
 }

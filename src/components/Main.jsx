@@ -7,7 +7,7 @@ import lakeview from "../assets/lakeview.jpg";
 
 const Main = () => {
   return (
-    <main className='wrapper'>
+    <main className='wrapper mainGallery'>
       <div className='gallery'>
         <img src={caribou} alt="" />
         <img src={blackBear} alt="" />
