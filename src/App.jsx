@@ -8,12 +8,13 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  
 
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/home" element={<Main />} />
+        <Route path="/" element={<Main />} />
         {/* <Route path="/work" element={<WORK />} /> */}
         <Route path="/aboutMe" element={<AboutMe />} />
         {/* <Route path="/travels" element={<Travels />} /> */}
