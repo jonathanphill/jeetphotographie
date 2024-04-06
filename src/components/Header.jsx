@@ -23,8 +23,8 @@ const Header = () => {
               <Link to={`/aboutMe`}>
                 <li>ABOUT ME</li>
               </Link>
-              <Link to={`/travels`}>
-                <li>TRAVELS</li>
+              <Link to={`/contact`}>
+                <li>CONTACT</li>
               </Link>
             </ul>
           </div>

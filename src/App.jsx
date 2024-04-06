@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import AboutMe from "./components/AboutMe";
 import "./App.css";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,7 +18,7 @@ function App() {
         <Route path="/" element={<Main />} />
         {/* <Route path="/work" element={<WORK />} /> */}
         <Route path="/aboutMe" element={<AboutMe />} />
-        {/* <Route path="/travels" element={<Travels />} /> */}
+        <Route path="/contact" element={<ContactForm />} />
       </Routes>
     </>
   );
