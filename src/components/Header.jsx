@@ -1,4 +1,4 @@
-import kuljitLogo from "../assets/jeetphotographie-logos.jpeg";
+import kuljitLogo from "../../dist/assets/Jeetphotographie-logos-f9b9f65c.jpeg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 const Header = () => {
