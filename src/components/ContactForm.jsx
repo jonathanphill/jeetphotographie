@@ -10,10 +10,12 @@ const ContactForm = () => {
     message: "",
   });
 
+  // eslint-disable-next-line no-unused-vars
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleSubmit = (e) => {
     e.preventDefault();
 
