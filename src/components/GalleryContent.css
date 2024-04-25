@@ -1,0 +1,5 @@
+.galleryImg{
+    max-width:500px;
+    max-height: 500px;
+    border:1px solid tomato;
+}

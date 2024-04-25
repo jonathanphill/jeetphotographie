@@ -5,8 +5,7 @@ html {
 }
 
 body {
-  margin: 0;
-  background-color: rgba(240, 240, 240, 0.973)
+  margin: 0
 }
 
 article,
@@ -262,7 +261,6 @@ html {
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
-  
 }
 
 img {
@@ -281,4 +279,21 @@ a {
   text-decoration: none;
   font-size: 1rem;
   color: black;
+}
+
+.gallery {
+  margin-top: 5em;
+}
+
+.gallery ul {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.gallery h3 {
+  font-size: 1rem;
+  font-weight: 425;
+
 }

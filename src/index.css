@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+/* :root {
   --step--2: clamp(0.6944rem, 0.6592rem + 0.176vw, 0.8rem);
   --step--1: clamp(0.8331rem, 0.7775rem + 0.2781vw, 1rem);
   --step-0: clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
@@ -9,9 +10,20 @@
   --step-3: clamp(1.7281rem, 1.4904rem + 1.1885vw, 2.4413rem);
   --step-4: clamp(2.0738rem, 1.7477rem + 1.6302vw, 3.0519rem);
   --step-5: clamp(2.4881rem, 2.0458rem + 2.2115vw, 3.815rem);
+  --mainColor: #29335c;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #db2b39;
+  --textColor: #eee;
+} */
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 300;
+  color: auto;
+  background-color: #e8f0f7;
 }
-body{
-/* font-family: 'Montserrat', sans-serif; */
-font-family: 'Inter', sans-serif;
-font-size: var(--step-0);
+
+h1 {
+  font-weight: 400;
 }
